@@ -25,6 +25,7 @@
 * OPT(i,j) = 0 when j-i≤4
 
 ### Algorithm
+```cpp
 1.  Initialize OPT(i,j) = 0 whenever j-4 ≤ i
 2.  For k = 5,6,...,n-1
 3.      For i = 1,2,..,n-k
@@ -33,6 +34,7 @@
 6.      Endfor
 7.  Endfor
 8.  Return OPT(1,n)
+```
 
 # Project Team
 
