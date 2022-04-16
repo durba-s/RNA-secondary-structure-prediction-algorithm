@@ -3,7 +3,7 @@
 * RNA is a basic biological molecule. It is single stranded.
 * RNA molecules fold into complex secondary structures.
 * Secondary structure often governs the behaviour of an RNA molecule.
-### Various rules govern secondary structure formation:
+### Rules governing secondary structure formation:
 * Pairs of bases match up; each base matches with 1 other base.
 * Adenine always matches with Uracil.
 * Cytosine always matches with Guanine.
