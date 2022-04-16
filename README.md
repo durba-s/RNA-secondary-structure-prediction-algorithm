@@ -25,14 +25,14 @@
 * OPT(i,j) = 0 when j-i≤4
 
 ### Algorithm
-1. Initialize OPT(i,j) = 0 whenever j-4 ≤ i
-2. For k = 5,6,...,n-1
+1.  Initialize OPT(i,j) = 0 whenever j-4 ≤ i
+2.  For k = 5,6,...,n-1
 3.      For i = 1,2,..,n-k
 4.          Set j = i+k
 5.          Compute OPT(i,j)
 6.      Endfor
-7. Endfor
-8. Return OPT(1,n)
+7.  Endfor
+8.  Return OPT(1,n)
 
 # Project Team
 
