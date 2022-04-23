@@ -1,0 +1,167 @@
+\hypertarget{utils_8cpp}{}\doxysection{utils.\+cpp File Reference}
+\label{utils_8cpp}\index{utils.cpp@{utils.cpp}}
+{\ttfamily \#include \char`\"{}utils.\+hpp\char`\"{}}\newline
+Include dependency graph for utils.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{utils_8cpp_a6f4af4845c2f7ecb1be6263ca6b42134}{is\+Valid}} (int i, int j)
+\begin{DoxyCompactList}\small\item\em Function to check if the bases at indices i and j in the sequence form a valid pairing. A vaild pairing is the pairing of bases (A and U) and (C and G) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utils_8cpp_ac218795326f1f6e829f1de06ab0174ed}{initialize}} (int $\ast$$\ast$$\ast$a, int \mbox{\hyperlink{utils_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\begin{DoxyCompactList}\small\item\em Inititialize and allocate memory a two-\/dimensional matrix A of dimension n x n. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utils_8cpp_a2eb1d77ceacf6ab597dc9558801f2f6b}{find\+Optimal\+Pairing}} ()
+\begin{DoxyCompactList}\small\item\em Function to find the maximum number of pairings for the RNA sequence s. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utils_8cpp_a016c0bb03cc671e502eae00bd2089391}{get\+Pairs}} (int i, int j)
+\begin{DoxyCompactList}\small\item\em Function which prints the pairs (maximum number) between the indices i and j of the RNA sequence. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{utils_8cpp_a7ca154b901ce7bb4d4ee1e2cdf7f8a85}{solve}} ()
+\begin{DoxyCompactList}\small\item\em Used to find the max number of pairings and print the pairs after scanning the RNA sequence s. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{utils_8cpp_a2016384928a1b557c51ef62964decea5}{s}}
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{utils_8cpp_abf37e035a1f0bfba9191de8697ba5f4f}{dp}}
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{utils_8cpp_ad3812bfe527af9e1f0e7e23f6a42f7e6}{path}}
+\item 
+int \mbox{\hyperlink{utils_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}{n}}
+\item 
+pair$<$ int, int $>$ $\ast$ \mbox{\hyperlink{utils_8cpp_ab52418477ba377e207ef6448873e4be2}{pairs}}
+\item 
+int \mbox{\hyperlink{utils_8cpp_a1910d262855b71da353ed0d07a6c7823}{pos}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{utils_8cpp_a2eb1d77ceacf6ab597dc9558801f2f6b}\label{utils_8cpp_a2eb1d77ceacf6ab597dc9558801f2f6b}} 
+\index{utils.cpp@{utils.cpp}!findOptimalPairing@{findOptimalPairing}}
+\index{findOptimalPairing@{findOptimalPairing}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{findOptimalPairing()}{findOptimalPairing()}}
+{\footnotesize\ttfamily void find\+Optimal\+Pairing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to find the maximum number of pairings for the RNA sequence s. 
+
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{utils_8cpp_a016c0bb03cc671e502eae00bd2089391}\label{utils_8cpp_a016c0bb03cc671e502eae00bd2089391}} 
+\index{utils.cpp@{utils.cpp}!getPairs@{getPairs}}
+\index{getPairs@{getPairs}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{getPairs()}{getPairs()}}
+{\footnotesize\ttfamily void get\+Pairs (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+Function which prints the pairs (maximum number) between the indices i and j of the RNA sequence. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & The lower bound of the indices between which the pairs (max number) have to be printed \\
+\hline
+{\em j} & The upper bound of the indices between which the pairs (max number) have to be printed \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{utils_8cpp_ac218795326f1f6e829f1de06ab0174ed}\label{utils_8cpp_ac218795326f1f6e829f1de06ab0174ed}} 
+\index{utils.cpp@{utils.cpp}!initialize@{initialize}}
+\index{initialize@{initialize}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void initialize (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$$\ast$}]{a,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Inititialize and allocate memory a two-\/dimensional matrix A of dimension n x n. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The pointer to the matrix A \\
+\hline
+{\em n} & The dimension of the matrix. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{utils_8cpp_a6f4af4845c2f7ecb1be6263ca6b42134}\label{utils_8cpp_a6f4af4845c2f7ecb1be6263ca6b42134}} 
+\index{utils.cpp@{utils.cpp}!isValid@{isValid}}
+\index{isValid@{isValid}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily int is\+Valid (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+Function to check if the bases at indices i and j in the sequence form a valid pairing. A vaild pairing is the pairing of bases (A and U) and (C and G) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & index of the first base \\
+\hline
+{\em j} & index of the second base \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if (seq\mbox{[}i\mbox{]},seq\mbox{[}j\mbox{]}) is (A,U) or (U,A) or (C,G) or (G,C) i.\+e the bases at indices i and j in the sequence form a valid pairing 
+
+0 otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{utils_8cpp_a7ca154b901ce7bb4d4ee1e2cdf7f8a85}\label{utils_8cpp_a7ca154b901ce7bb4d4ee1e2cdf7f8a85}} 
+\index{utils.cpp@{utils.cpp}!solve@{solve}}
+\index{solve@{solve}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily int solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Used to find the max number of pairings and print the pairs after scanning the RNA sequence s. 
+
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{utils_8cpp_abf37e035a1f0bfba9191de8697ba5f4f}\label{utils_8cpp_abf37e035a1f0bfba9191de8697ba5f4f}} 
+\index{utils.cpp@{utils.cpp}!dp@{dp}}
+\index{dp@{dp}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{dp}{dp}}
+{\footnotesize\ttfamily int$\ast$$\ast$ dp}
+
+\mbox{\Hypertarget{utils_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}\label{utils_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}} 
+\index{utils.cpp@{utils.cpp}!n@{n}}
+\index{n@{n}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{n}{n}}
+{\footnotesize\ttfamily int n}
+
+\mbox{\Hypertarget{utils_8cpp_ab52418477ba377e207ef6448873e4be2}\label{utils_8cpp_ab52418477ba377e207ef6448873e4be2}} 
+\index{utils.cpp@{utils.cpp}!pairs@{pairs}}
+\index{pairs@{pairs}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{pairs}{pairs}}
+{\footnotesize\ttfamily pair$<$int,int$>$$\ast$ pairs}
+
+\mbox{\Hypertarget{utils_8cpp_ad3812bfe527af9e1f0e7e23f6a42f7e6}\label{utils_8cpp_ad3812bfe527af9e1f0e7e23f6a42f7e6}} 
+\index{utils.cpp@{utils.cpp}!path@{path}}
+\index{path@{path}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily int$\ast$$\ast$ path}
+
+\mbox{\Hypertarget{utils_8cpp_a1910d262855b71da353ed0d07a6c7823}\label{utils_8cpp_a1910d262855b71da353ed0d07a6c7823}} 
+\index{utils.cpp@{utils.cpp}!pos@{pos}}
+\index{pos@{pos}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{pos}{pos}}
+{\footnotesize\ttfamily int pos}
+
+\mbox{\Hypertarget{utils_8cpp_a2016384928a1b557c51ef62964decea5}\label{utils_8cpp_a2016384928a1b557c51ef62964decea5}} 
+\index{utils.cpp@{utils.cpp}!s@{s}}
+\index{s@{s}!utils.cpp@{utils.cpp}}
+\doxysubsubsection{\texorpdfstring{s}{s}}
+{\footnotesize\ttfamily string s}
+
