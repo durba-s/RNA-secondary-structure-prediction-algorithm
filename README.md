@@ -35,8 +35,67 @@
 7.  Endfor
 8.  Return OPT(1,n)
 ```
+### Compilation
+```sh
+make clean && make
+./output
+```
+
 ### Testcases
 [RNA Molecules](http://ndbserver.rutgers.edu/service/ndb/atlas/gallery/rna?polType=all&rnaFunc=all&protFunc=all&strGalType=rna&expMeth=all&seqType=all&galType=table&start=0&limit=50)
+
+```py
+#test case 1
+input: GGCGAAGAACCGGGGAGCC
+Predicted pairings: 4
+0-18 (G-C)
+1-17 (G-C)
+2-11 (C-G)
+3-9 (G-C)
+
+#test case 2
+input: GGGUGUAGAAAAGUAAGGGAAACUCAAACCCCUUUCUACACCC
+Predicted pairings: 15
+0-42 (G-C)
+1-41 (G-C)
+2-40 (G-C)
+3-39 (U-A)
+4-38 (G-C)
+5-37 (U-A)
+6-36 (A-U)
+7-35 (G-C)
+8-34 (A-U)
+9-33 (A-U)
+10-32 (A-U)
+12-28 (G-C)
+13-25 (U-A)
+14-23 (A-U)
+16-22 (G-C)
+
+#test case 3
+input: UCGUGCGA
+Predicted pairings: 2
+0-7 (U-A)
+1-6 (C-G)
+
+#test case 4
+input: GGACUCGACUCC
+Predicted pairings: 3
+0-11 (G-C)
+1-10 (G-C)
+2-9 (A-U)
+
+#test case 5
+input: UGCUCCUAGUACGAGAGGACCGGAGUG
+Predicted pairings: 7
+2-24 (C-G)
+3-23 (U-A)
+4-22 (C-G)
+5-21 (C-G)
+8-19 (G-C)
+9-18 (U-A)
+11-16 (C-G)
+```
 
 # Project Team
 

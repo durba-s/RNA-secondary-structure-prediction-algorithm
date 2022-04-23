@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DAA Assignment-1</title>
+<link rel="stylesheet" href="./report.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #24005f;">
+        <a class="navbar-brand" href="#"><b>DAA Assignment-2</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./report.html">Overview </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./tc.html"><span class="sr-only">(current)</span>Test Cases</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./ta.html">Timing Analysis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./td.html">Team Details</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="card" style="background-color: rgb(239, 237, 254); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 1</h5>
+          <p class="card-text" ><b>Molecule Name:</b> RNA KINK-TURN MOTIF</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/7/7efg/7EFG-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GGCGAAGAACCGGGGAGCC</p>
+          <p class="card-text"><b>Output:</b>
+            <p> Predicted pairings: 4</p> 
+            <p> 0-18 (G-C)</p> 
+            <p> 1-17 (G-C)</p> 
+            <p> 2-11 (C-G)</p> 
+            <p> 3-9 (G-C)</p>  </p>
+          <p class="card-text"><b>Time:</b> 0.000105 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(255, 241, 228); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 2</h5>
+          <p class="card-text" ><b>Molecule Name:</b> SOLUTION STRUCTURE OF NPSL2</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/nmr/structures/id/7uga/7UGA-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GGGUGUAGAAAAGUAAGGGAAACUCAAACCCCUUUCUACACCC</p>
+          <p class="card-text"><b>Output:</b>
+            <p> Predicted pairings: 15 </p>
+            <p> 0-42 (G-C)</p> 
+            <p> 1-41 (G-C)</p> 
+            <p> 2-40 (G-C)</p> 
+            <p> 3-39 (U-A)</p> 
+            <p> 4-38 (G-C)</p> 
+            <p> 5-37 (U-A)</p> 
+            <p> 6-36 (A-U)</p> 
+            <p> 7-35 (G-C)</p> 
+            <p> 8-34 (A-U)</p> 
+            <p> 9-33 (A-U)</p> 
+            <p> 10-32 (A-U)</p> 
+            <p> 12-28 (G-C)</p> 
+            <p> 13-25 (U-A)</p> 
+            <p> 14-23 (A-U)</p> 
+            <p> 16-22 (G-C)</p>  </p>
+          <p class="card-text"><b>Time:</b> 0.001040 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(239, 237, 254); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 3</h5>
+          <p class="card-text" ><b>Molecule Name:</b> CRYSTAL STRUCTURE OF RNA DUPLEX</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/7/7ouo/7OUO-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> UCGUGCGA</p>
+          <p class="card-text"><b>Output:   
+            <p> Predicted pairings: 2</p> 
+            <p> 0-7 (U-A)</p> 
+            <p> 1-6 (C-G)</p> 
+          </b> </p>
+          <p class="card-text"><b>Time:</b> 0.000008 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(255, 241, 228); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 4</h5>
+          <p class="card-text" ><b>Molecule Name:</b> EUKARYOTIC DECODING SITE IN COMPLEX WITH AG(I)</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/7/7edn/7EDN-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> UUGCGUCGCGUCGACGAAGUCGC</p>
+          <p class="card-text"><b>Output:</b> 
+            <p> Predicted pairings: 6</p> 
+            <p> 0-17 (U-A)</p> 
+            <p> 1-16 (U-A)</p> 
+            <p> 3-15 (C-G)</p> 
+            <p> 4-14 (G-C)</p> 
+            <p> 5-13 (U-A)</p> 
+            <p> 6-12 (C-G)</p> </p>
+          <p class="card-text"><b>Time:</b> 0.000137 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(239, 237, 254); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 5</h5>
+          <p class="card-text" ><b>Molecule Name:</b> CRYSTAL STRUCTURE OF AN E. COLI THIM RIBOSWITCH BOUND TO THIAMINE, MANGANESE IONS</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/7/7td7/7TD7-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GCGACUCGGGGUGCCCUUCUGCGUGAAGGCUGAGAAAUACCCGUAUCACCUGAUCUGGAUAAUGCCAGCGUAGGGAAGUCGCA</p>
+          <p class="card-text"><b>Output:</b> 
+            <p> Predicted pairings: 28 </p>
+            <p> 0-81 (G-C)</p> 
+            <p> 1-80 (C-G)</p> 
+            <p> 2-79 (G-C)</p> 
+            <p> 3-78 (A-U)</p> 
+            <p> 4-77 (C-G)</p> 
+            <p> 5-75 (U-A)</p> 
+            <p> 6-73 (C-G)</p> 
+            <p> 7-14 (G-C)</p> 
+            <p> 8-13 (G-C)</p> 
+            <p> 15-72 (C-G)</p> 
+            <p> 16-71 (U-A)</p> 
+            <p> 18-69 (C-G)</p> 
+            <p> 20-68 (G-C)</p> 
+            <p> 21-67 (C-G)</p> 
+            <p> 23-66 (U-A)</p> 
+            <p> 24-65 (G-C)</p> 
+            <p> 27-64 (G-C)</p> 
+            <p> 29-63 (C-G)</p> 
+            <p> 30-35 (U-A)</p> 
+            <p> 36-62 (A-U)</p> 
+            <p> 37-60 (U-A)</p> 
+            <p> 38-59 (A-U)</p> 
+            <p> 39-57 (C-G)</p> 
+            <p> 40-56 (C-G)</p> 
+            <p> 42-54 (G-C)</p> 
+            <p> 44-53 (A-U)</p> 
+            <p> 45-52 (U-A)</p> 
+            <p> 46-51 (C-G)</p> </p>
+          <p class="card-text"><b>Time:</b> 0.008907 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(255, 241, 228); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 6</h5>
+          <p class="card-text" ><b>Molecule Name:</b> DENV1 5'UTR STEM3</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/nmr/structures/id/7lm1/7LM1-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GGCCGACAAGAACAGUUUCGAAUCGGCC</p>
+          <p class="card-text"><b>Output:</b> 
+            <p> Predicted pairings: 10 </p>
+            <p> 0-27 (G-C)</p> 
+            <p> 1-26 (G-C)</p> 
+            <p> 2-25 (C-G)</p> 
+            <p> 3-24 (C-G)</p> 
+            <p> 4-23 (G-C)</p> 
+            <p> 5-22 (A-U)</p> 
+            <p> 6-19 (C-G)</p> 
+            <p> 7-17 (A-U)</p> 
+            <p> 8-16 (A-U)</p> 
+            <p> 10-15 (A-U)</p> </p>
+          <p class="card-text"><b>Time:</b> 0.000267 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(239, 237, 254); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 7</h5>
+          <p class="card-text" ><b>Molecule Name:</b> CRYSTAL STRUCTURE OF E. COLI VALINE TRNA</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/7/7eqj/7EQJ-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GGGUGAUUAGCUCAGCUGGGAGAGCACCUCCCUUACAAGGAGGGGGUCGGCGGUUCGAUCCCGUCAUCACCCACCA</p>
+          <p class="card-text"><b>Output:</b> 
+            <p> Predicted pairings: 26 </p>
+            <p> 0-74 (G-C)</p> 
+            <p> 1-73 (G-C)</p> 
+            <p> 2-15 (G-C)</p> 
+            <p> 3-13 (U-A)</p> 
+            <p> 4-12 (G-C)</p> 
+            <p> 5-11 (A-U)</p> 
+            <p> 16-72 (U-A)</p> 
+            <p> 17-70 (G-C)</p> 
+            <p> 18-69 (G-C)</p> 
+            <p> 19-67 (G-C)</p> 
+            <p> 20-66 (A-U)</p> 
+            <p> 21-64 (G-C)</p> 
+            <p> 22-63 (A-U)</p> 
+            <p> 23-61 (G-C)</p> 
+            <p> 24-43 (C-G)</p> 
+            <p> 26-42 (C-G)</p> 
+            <p> 27-41 (C-G)</p> 
+            <p> 28-40 (U-A)</p> 
+            <p> 29-39 (C-G)</p> 
+            <p> 30-38 (C-G)</p> 
+            <p> 32-37 (U-A)</p> 
+            <p> 44-60 (G-C)</p> 
+            <p> 45-59 (G-C)</p> 
+            <p> 46-57 (U-A)</p> 
+            <p> 47-56 (C-G)</p> 
+            <p> 48-55 (G-C)</p> </p>
+          <p class="card-text"><b>Time:</b> 0.005530 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(255, 241, 228); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 8</h5>
+          <p class="card-text" ><b>Molecule Name:</b> PSEUDORABIES VIRUS</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/6/6xrq/6XRQ-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GGCUCGGCGGCGGA</p>
+          <p class="card-text"><b>Output:</b> 
+            <p> Predicted pairings: 3</p> 
+            <p> 2-12 (C-G)</p> 
+            <p> 4-11 (C-G)</p> 
+            <p> 5-10 (G-C)</p> </p>
+          <p class="card-text"><b>Time:</b> 0.000023 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(239, 237, 254); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 9</h5>
+          <p class="card-text" ><b>Molecule Name:</b> MOSQUITO-BORNE FLAVIVIRUS DUMBBELL RNA</p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/7/7kga/7KGA-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GGGGGCCAGAUGUCAUGUCUCUCAAGCCUAGGAGACACUAGACACUCUGGACUAUCGGUUAGAGGAAACCCCCCCAAAAAUGUAUAGGCU</p>
+          <p class="card-text"><b>Output:</b> 
+            <p> Predicted pairings: 31 </p>
+            <p> 0-72 (G-C)</p> 
+            <p> 1-71 (G-C)</p> 
+            <p> 2-70 (G-C)</p> 
+            <p> 3-55 (G-C)</p> 
+            <p> 4-51 (G-C)</p> 
+            <p> 5-49 (C-G)</p> 
+            <p> 6-48 (C-G)</p> 
+            <p> 7-47 (A-U)</p> 
+            <p> 8-46 (G-C)</p> 
+            <p> 9-45 (A-U)</p> 
+            <p> 10-43 (U-A)</p> 
+            <p> 11-42 (G-C)</p> 
+            <p> 12-41 (U-A)</p> 
+            <p> 13-40 (C-G)</p> 
+            <p> 14-38 (A-U)</p> 
+            <p> 15-36 (U-A)</p> 
+            <p> 16-35 (G-C)</p> 
+            <p> 17-34 (U-A)</p> 
+            <p> 18-33 (C-G)</p> 
+            <p> 19-32 (U-A)</p> 
+            <p> 20-30 (C-G)</p> 
+            <p> 21-29 (U-A)</p> 
+            <p> 23-28 (A-U)</p> 
+            <p> 56-69 (G-C)</p> 
+            <p> 57-68 (G-C)</p> 
+            <p> 58-66 (U-A)</p> 
+            <p> 59-65 (U-A)</p> 
+            <p> 73-87 (C-G)</p> 
+            <p> 74-86 (C-G)</p> 
+            <p> 75-84 (A-U)</p> 
+            <p> 76-82 (A-U)</p> </p>
+          <p class="card-text"><b>Time:</b> 0.009315 s</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(255, 241, 228); margin-top: 20px; width: 98%; margin-left: 1%;">
+        <div class="card-body" >
+          <h5 class="card-title">Test Case: 10</h5>
+          <p class="card-text" ><b>Molecule Name:</b> CHILI RNA APTAMER IN COMPLEX WITH DMHBO+ </p>
+          <p><img src="http://ndbserver.rutgers.edu/files/atlas/xray/structures/7/7oa3/7OA3-inset.jpg" alt="rna" height="300" width="300"/></p>
+          <div class="card-body" style="background-color: black; border-radius: 1rem; color: white;" >
+          <p class="card-text"><b>Input:</b> GGCUAGCUGGAGGGGCGCCAGUUCGCUGGUGGUUGGGUGCGGUCGGCUAGCC</p>
+          <p class="card-text"><b>Output:</b> 
+            <p> Predicted pairings: 16 </p>
+            <p> 0-51 (G-C)</p> 
+            <p> 1-50 (G-C)</p> 
+            <p> 2-49 (C-G)</p> 
+            <p> 3-48 (U-A)</p> 
+            <p> 4-47 (A-U)</p> 
+            <p> 5-46 (G-C)</p> 
+            <p> 6-44 (C-G)</p> 
+            <p> 8-43 (G-C)</p> 
+            <p> 9-39 (G-C)</p> 
+            <p> 10-37 (A-U)</p> 
+            <p> 15-36 (C-G)</p> 
+            <p> 17-35 (C-G)</p> 
+            <p> 18-34 (C-G)</p> 
+            <p> 19-32 (A-U)</p> 
+            <p> 23-31 (C-G)</p> 
+            <p> 25-30 (C-G)</p> </p>
+          <p class="card-text"><b>Time:</b> 0.002164 s</p>
+        </div>
+        </div>
+      </div>
+</body>
+</html>
